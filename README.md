@@ -1,5 +1,6 @@
-# nlp-tlp-website
-The new website for the UWA NLP-TLP Group.
+# WMC Tutorial
+
+The website for the WMC 2023 Tutorial by the UWA NLP-TLP group.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

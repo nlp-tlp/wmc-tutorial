@@ -32,7 +32,7 @@ class Header extends Component {
                 <a href="#materials">Materials</a>
               </li>
               <li>
-                <a href="#speakers">Speaker</a>
+                <a href="#speakers">Speakers</a>
               </li>
             </ul>
           </div>

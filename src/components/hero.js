@@ -18,7 +18,7 @@ function genRandomTree(N = 220) {
     id: i,
     val: NODE_SIZE, //5 * Math.max(Math.random() * 5, 1),
     colors: choose([
-      { fill: "#09701a", stroke: "#024a0e" },
+      { fill: "#244397", stroke: "#173178" },
       { fill: "#856613", stroke: "#543f06" },
     ]),
   }));
@@ -131,10 +131,11 @@ class Hero extends Component {
         <div className="container flex-container flex-align-center ">
           <div className="hero-text">
             <h2>
-              A Practical Guide to{" "}
-              <span className="highlight">Knowledge Graph Construction</span>
-              <br /> from{" "}
-              <span className="highlight">Technical Short Text</span>
+              <span className="highlight">Technical Language Processing</span>
+              <br /> and <span className="highlight">
+                Knowledge Graphs
+              </span>{" "}
+              Demystified
             </h2>
 
             <div className="ajcai-bit">
@@ -150,11 +151,12 @@ class Hero extends Component {
                 </div>
               </div>*/}
               <div className="flex-item">
-                <h3>Tutorial at AJCAI 2022</h3>
+                <h3>Tutorial at WMC 2023</h3>
                 <h4>
-                  Monday 5 December 2022, 9am - 12pm AWST
+                  <span style={{ color: "red" }}>(date)</span>, 9am - 4pm AEST
                   <br />
-                  Freshwater Bay Room, Hyatt Regency Perth, Perth, WA, Australia
+                  <span style={{ color: "red" }}>(room)</span>, Brisbane
+                  Convention & Exhibition Centre, Brisbane, WA, Australia
                 </h4>
               </div>
             </div>

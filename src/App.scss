@@ -24,7 +24,7 @@ $sidenav_width: 300px;
 $pad_amount: 10px;
 
 //$primary-color: #461566;
-$primary-color: #09701a;
+$primary-color: #244397;
 $highlight-color: #fce700;
 
 $primary-color-light-1: lighten($primary-color, 5);
@@ -597,8 +597,17 @@ section {
   line-height: 230%;
   margin-left: 1em;
   padding: 0;
+
+  span.time {
+    margin-right: 1em;
+    float: right;
+  }
   > li {
     padding-left: 1em;
+    &:not(:last-child) {
+      border-bottom: 1px solid #ddd;
+    }
+    padding: 0.5em 0.5em;
 
     > ul li {
       list-style: none;
@@ -614,6 +623,8 @@ section {
       transform: translate(0px, -1px);
     }
   }
+  list-style: none;
+  margin: 0;
 }
 
 .profile {
@@ -631,7 +642,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 0.9em;
+    font-size: 0.8em;
     li:not(:last-child):after {
       content: "\00B7";
       margin-left: 0.5em;
@@ -641,9 +652,9 @@ section {
   .profile-details {
     margin-top: 0.5em;
     text-align: center;
-    line-height: 180%;
+    line-height: 160%;
     h3 {
-      font-size: 1.35em;
+      font-size: 1.25em;
       margin: 0;
       padding: 0;
     }
@@ -652,11 +663,11 @@ section {
       padding: 0;
       font-weight: normal;
       color: #555;
-      font-size: 1.05em;
+      font-size: 0.95em;
     }
   }
   .profile-photo {
-    width: 180px;
+    width: 150px;
     margin-right: 1em;
     border-radius: 50%;
     margin-left: 1em;

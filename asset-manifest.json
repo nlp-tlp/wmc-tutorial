@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/wmc-tutorial/static/css/main.895c9ccf.chunk.css",
+    "main.js": "/wmc-tutorial/static/js/main.8d81b88a.chunk.js",
+    "main.js.map": "/wmc-tutorial/static/js/main.8d81b88a.chunk.js.map",
+    "runtime-main.js": "/wmc-tutorial/static/js/runtime-main.be78281c.js",
+    "runtime-main.js.map": "/wmc-tutorial/static/js/runtime-main.be78281c.js.map",
+    "static/js/2.25c1cc4b.chunk.js": "/wmc-tutorial/static/js/2.25c1cc4b.chunk.js",
+    "static/js/2.25c1cc4b.chunk.js.map": "/wmc-tutorial/static/js/2.25c1cc4b.chunk.js.map",
+    "static/js/3.7bec8e70.chunk.js": "/wmc-tutorial/static/js/3.7bec8e70.chunk.js",
+    "static/js/3.7bec8e70.chunk.js.map": "/wmc-tutorial/static/js/3.7bec8e70.chunk.js.map",
+    "index.html": "/wmc-tutorial/index.html",
+    "static/css/main.895c9ccf.chunk.css.map": "/wmc-tutorial/static/css/main.895c9ccf.chunk.css.map",
+    "static/js/2.25c1cc4b.chunk.js.LICENSE.txt": "/wmc-tutorial/static/js/2.25c1cc4b.chunk.js.LICENSE.txt",
+    "static/media/center-logo.319a07e4.png": "/wmc-tutorial/static/media/center-logo.319a07e4.png",
+    "static/media/App.scss": "/wmc-tutorial/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/michael-stewart.8986114a.jpg": "/wmc-tutorial/static/media/michael-stewart.8986114a.jpg",
+    "static/media/nlp-tlp-logo.070802fa.png": "/wmc-tutorial/static/media/nlp-tlp-logo.070802fa.png",
+    "static/media/tyler-bikaun.0649a2b4.jpg": "/wmc-tutorial/static/media/tyler-bikaun.0649a2b4.jpg",
+    "static/media/uwacrest-blue.de0d0ed2.png": "/wmc-tutorial/static/media/uwacrest-blue.de0d0ed2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be78281c.js",
+    "static/js/2.25c1cc4b.chunk.js",
+    "static/css/main.895c9ccf.chunk.css",
+    "static/js/main.8d81b88a.chunk.js"
+  ]
+}

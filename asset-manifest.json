@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/wmc-tutorial/static/css/main.bd854870.chunk.css",
-    "main.js": "/wmc-tutorial/static/js/main.d190adda.chunk.js",
-    "main.js.map": "/wmc-tutorial/static/js/main.d190adda.chunk.js.map",
+    "main.js": "/wmc-tutorial/static/js/main.7800365d.chunk.js",
+    "main.js.map": "/wmc-tutorial/static/js/main.7800365d.chunk.js.map",
     "runtime-main.js": "/wmc-tutorial/static/js/runtime-main.be78281c.js",
     "runtime-main.js.map": "/wmc-tutorial/static/js/runtime-main.be78281c.js.map",
     "static/js/2.ed5109f0.chunk.js": "/wmc-tutorial/static/js/2.ed5109f0.chunk.js",
@@ -17,7 +17,7 @@
     "static/media/melinda-hodkiewicz.b3dcb85e.jpg": "/wmc-tutorial/static/media/melinda-hodkiewicz.b3dcb85e.jpg",
     "static/media/michael-stewart.8986114a.jpg": "/wmc-tutorial/static/media/michael-stewart.8986114a.jpg",
     "static/media/nlp-tlp-logo.070802fa.png": "/wmc-tutorial/static/media/nlp-tlp-logo.070802fa.png",
-    "static/media/profile-placeholder.fed8a1cf.png": "/wmc-tutorial/static/media/profile-placeholder.fed8a1cf.png",
+    "static/media/sirui-li.40ae9d67.jpg": "/wmc-tutorial/static/media/sirui-li.40ae9d67.jpg",
     "static/media/tyler-bikaun.0649a2b4.jpg": "/wmc-tutorial/static/media/tyler-bikaun.0649a2b4.jpg",
     "static/media/uwacrest-blue.de0d0ed2.png": "/wmc-tutorial/static/media/uwacrest-blue.de0d0ed2.png",
     "static/media/wei-liu.23bb5982.jpg": "/wmc-tutorial/static/media/wei-liu.23bb5982.jpg"
@@ -26,6 +26,6 @@
     "static/js/runtime-main.be78281c.js",
     "static/js/2.ed5109f0.chunk.js",
     "static/css/main.bd854870.chunk.css",
-    "static/js/main.d190adda.chunk.js"
+    "static/js/main.7800365d.chunk.js"
   ]
 }

@@ -270,7 +270,7 @@ class HomePage extends Component {
 								<ul className="profile-links">
 									<li>
 										<a
-											href="https://www.linkedin.com/in/melinda-hodkiewicz/"
+											href="https://www.linkedin.com/in/melinda-hodkiewicz-b6bbba7"
 											target="_blank"
 											rel="noreferrer"
 										>
@@ -315,7 +315,7 @@ class HomePage extends Component {
 								<ul className="profile-links">
 									<li>
 										<a
-											href="https://www.linkedin.com/in/wei-liu/"
+											href="https://www.linkedin.com/in/wei-liu-uwa"
 											target="_blank"
 											rel="noreferrer"
 										>

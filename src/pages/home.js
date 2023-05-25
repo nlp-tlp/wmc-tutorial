@@ -376,19 +376,27 @@ class HomePage extends Component {
 									</li>
 									<li>
 										<a
-											href="#"
+											href="https://scholar.google.com/citations?user=Wt1wc-sAAAAJ&hl=en"
 											target="_blank"
 											rel="noreferrer"
-											style={{ color: "red" }}
 										>
-											(Google scholar??)
+											Google Scholar
 										</a>
 									</li>
 								</ul>
 							</div>
 						</div>
 						<div className="flex-item">
-							<p style={{ color: "red" }}>(Sirui bio)</p>
+							<p>
+								Sirui Li is a research associate at The Centre for Transforming
+								Maintenance through Data Science. Her primary focus lies in
+								exploring deep learning-based approaches to uncover valuable
+								insights within knowledge graphs. She completed her Bachelor's
+								and Master's degrees at the Australian National University, and
+								subsequently pursued her PhD at Murdoch University. She is
+								enthusiastic about applying knowledge graphs to industry
+								applications and is keen on exploring diverse areas.
+							</p>
 						</div>
 					</div>
 

@@ -156,7 +156,7 @@ class Hero extends Component {
                   <span style={{ color: "red" }}>(date)</span>, 9am - 4pm AEST
                   <br />
                   <span style={{ color: "red" }}>(room)</span>, Brisbane
-                  Convention & Exhibition Centre, Brisbane, WA, Australia
+                  Convention & Exhibition Centre, Brisbane, QLD, Australia
                 </h4>
               </div>
             </div>

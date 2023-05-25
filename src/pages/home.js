@@ -454,7 +454,7 @@ class HomePage extends Component {
 						<div className="flex-item">
 							<img src={me} alt="Michael Stewart" className="profile-photo" />
 							<div className="profile-details">
-								<h3>Dr. Michael Stewart</h3>
+								<h3>Dr Michael Stewart</h3>
 								<h4>Research Associate, UWA</h4>
 								<ul className="profile-links">
 									<li>

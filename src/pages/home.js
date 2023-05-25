@@ -5,7 +5,7 @@ import me from "../images/michael-stewart.jpg";
 import tyler from "../images/tyler-bikaun.jpg";
 import melinda from "../images/melinda-hodkiewicz.jpg";
 import wei from "../images/wei-liu.jpg";
-import sirui from "../images/profile-placeholder.png";
+import sirui from "../images/sirui-li.jpg";
 import centre_logo from "../images/center-logo.png";
 
 class HomePage extends Component {

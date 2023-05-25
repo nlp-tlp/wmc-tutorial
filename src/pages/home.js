@@ -265,7 +265,7 @@ class HomePage extends Component {
 								className="profile-photo"
 							/>
 							<div className="profile-details">
-								<h3>Melinda Hodkiewicz</h3>
+								<h3>Prof Melinda Hodkiewicz</h3>
 								<h4>Professor, UWA</h4>
 								<ul className="profile-links">
 									<li>

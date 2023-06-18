@@ -153,10 +153,10 @@ class Hero extends Component {
               <div className="flex-item">
                 <h3>Tutorial at WMC 2023</h3>
                 <h4>
-                  <span style={{ color: "red" }}>(date)</span>, 9am - 4pm AEST
+                  Monday 26 June, 9am - 4pm AEST
                   <br />
-                  <span style={{ color: "red" }}>(room)</span>, Brisbane
-                  Convention & Exhibition Centre, Brisbane, QLD, Australia
+                  Brisbane Convention & Exhibition Centre, Brisbane, QLD,
+                  Australia
                 </h4>
               </div>
             </div>

@@ -42,18 +42,19 @@ class HomePage extends Component {
 						building knowledge graphs, and how is one created?
 					</p>
 					<p>
-						This tutorial provides a practical guide to knowledge graphs. We
-						will begin by providing an overview of graph databases, highlighting
-						their unique advantages when compared to structured data models such
-						as relational tables. We will then detail the underlying natural
-						language processing techniques involved in knowledge graph
-						construction from text, namely named entity recognition (NER) and
-						relation extraction (RE). We will motivate the need for knowledge
-						graphs via a simple, practical example in the maintenance domain.
-						This Python notebook-based example will demonstrate how noisy,
-						unstructured text such as maintenance work orders can be transformed
-						into a knowledge graph to visualise and query unstructured data and
-						allow domain experts to make informed business decisions.
+						This tutorial provides a practical guide to technical language
+						processing (TLP) and knowledge graphs. We will begin by providing an
+						overview of knowledge graphs, highlighting their unique advantages
+						when compared to structured data models such as relational tables.
+						We will then detail the underlying natural language processing
+						techniques involved in knowledge graph construction from text,
+						namely named entity recognition (NER) and relation extraction (RE).
+						We will motivate the need for knowledge graphs via a simple,
+						practical example in the maintenance domain. This Python
+						notebook-based example will demonstrate how noisy, unstructured text
+						such as maintenance work orders can be transformed into a knowledge
+						graph to visualise and query unstructured data and allow domain
+						experts to make informed business decisions.
 					</p>
 					{/*<p>
 						<ul className="chevron-bullets extra-indent">
@@ -82,7 +83,7 @@ class HomePage extends Component {
 							<span className="time">9:30 - 10:30</span>
 							<b>Session 2 - Motivation</b>
 							<ul>
-								<li>Introduction to technical language processing</li>
+								<li>Introduction to Technical Language Processing</li>
 								<li>Discussion</li>
 							</ul>
 						</li>
@@ -96,10 +97,9 @@ class HomePage extends Component {
 							<b>Session 3 - Introduction to Knowledge Graphs</b>
 							<ul>
 								<li>Introduction to graph databases and knowledge graphs</li>
+								<li>Graph databases vs relational databases</li>
 								<li>What makes knowledge graphs so useful?</li>
-								<li>Knowledge Graph Construction from text</li>
-
-								<li>Introduction to Natural & Technical Language Processing</li>
+								<li>Incorporating unstructured data into a knowledge graph</li>
 								<li>Activities</li>
 							</ul>
 						</li>
@@ -111,17 +111,20 @@ class HomePage extends Component {
 						<li>
 							<span className="time">13:15 - 14:30</span>
 							<b>
-								Session 4 - Building knowledge graphs from unstructured text I
+								Session 4 - Building Knowledge Graphs from Unstructured Text
 							</b>
 							<ul>
-								<li>Step 1: Text cleaning via Lexical Normalisation</li>
+								<li>Introduction to Natural & Technical Language Processing</li>
 								<li>
-									Step 2: Extracting entities via Named Entity Recognition
+									Fundamental NLP/TLP Techniques (corpora, tokenisation,
+									embeddings)
 								</li>
+								<li>Text cleaning via Lexical Normalisation</li>
+								<li>Extracting entities via Named Entity Recognition</li>
 								<li>
-									Step 3: Extracting relations between entities via Relation
-									Extraction
+									Extracting relations between entities via Relation Extraction
 								</li>
+								<li>Querying the knowledge graph</li>
 								<li>Activities</li>
 							</ul>
 						</li>
@@ -132,25 +135,16 @@ class HomePage extends Component {
 
 						<li>
 							<span className="time">14:45 - 16:00</span>
-							<b>
-								Session 5 - Building knowledge graphs from unstructured text II
-							</b>
+							<b>Session 5 - Practical Applications of Knowledge Graphs</b>
 							<ul>
 								<li>
-									Step 4: Putting everything together and building the knowledge
-									graph
-								</li>
-								<li>Step 5: Querying the knowledge graph in Neo4j</li>
-								<li>
-									Introduction to Natural and Technical Language Processing
+									Demonstration of Natural and Technical Language Processing
 									tools:
 									<ul>
-										<li>Redcoat</li>
 										<li>Echidna</li>
 										<li>Aquila</li>
 										<li>Quickgraph</li>
-										<li>Lexiclean</li>
-										<li>IDO</li>
+										<li>Industrial Data Ontology (IDO)</li>
 									</ul>
 								</li>
 								<li>Wrap up</li>
@@ -181,9 +175,8 @@ class HomePage extends Component {
 				<section id="venue">
 					<h2>Venue</h2>
 					<p>
-						The tutorial will be located in{" "}
-						<b style={{ color: "red" }}>??? room ???</b>, Brisbane Convention &
-						Exhibition Centre, QLD, Australia.
+						The tutorial will be located at Brisbane Convention & Exhibition
+						Centre, QLD, Australia.
 					</p>
 					{/*					<p>
 						It is also available online.&nbsp;
@@ -202,39 +195,21 @@ class HomePage extends Component {
 				<section id="what-to-bring">
 					<h2>What to Bring</h2>
 					<p>
-						Please bring your own laptop to the tutorial. The majority of the
-						tutorial will be a Jupyter Notebook walkthrough that demonstrates
-						the process of building a knowledge graph from a sample dataset of
-						technical short text. To follow along, there are two options:
-					</p>
-
-					<ul>
-						<li>
-							<b>Local installation:</b> Please clone the{" "}
+						You are encouraged to bring your laptop to the tutorial so that you
+						can follow along with the Jupyter notebook in Session 4 (click{" "}
+						<b>
 							<a
-								href="https://github.com/nlp-tlp/ajcai-tutorial-prep"
-								rel="noreferrer"
+								href="https://github.com/nlp-tlp/Tutorial-WMC/blob/main/WMC.ipynb"
+								target="_blank"
 							>
-								GitHub repo
+								here
 							</a>
-							&nbsp;and follow the README file contained within. Note that you
-							will need to have{" "}
-							<a href="https://neo4j.com/" target="_blank" rel="noreferrer">
-								Neo4j Desktop
-							</a>{" "}
-							installed, but only for sections 8 and 9 - the rest will run
-							without Neo4j.
-						</li>
-						<li style={{ color: "red" }}>
-							<b>Google Colab:</b> We have also hosted the notebook on{" "}
-							<a href="https://colab.research.google.com/drive/1lEyOblgud5gdWzK_riGurLnrSEz08Nfi?authuser=1#scrollTo=j2KaJkHkmVNu">
-								Google Colab
-							</a>
-							. You will not need to install anything this way, though you will
-							need a Google Account to be able to run the code (without a Google
-							account, you can only view it).
-						</li>
-					</ul>
+						</b>{" "}
+						to open the notebook. You are not expected to install any packages
+						or run any code during the session, but are welcome to run the code
+						in the notebook after the session if you wish to try it out
+						yourself.
+					</p>
 				</section>
 
 				<section id="materials">
@@ -243,15 +218,11 @@ class HomePage extends Component {
 					<p>
 						All of the slides, the notebook, and other accompanying materials
 						are available on the{" "}
-						<a
-							href="https://github.com/nlp-tlp/ajcai-tutorial-prep"
-							rel="noreferrer"
-						>
+						<a href="https://github.com/nlp-tlp/Tutorial-WMC" rel="noreferrer">
 							GitHub repo
 						</a>
 						.
 					</p>
-					<p style={{ color: "red" }}>Recommended reading/viewing (TODO)</p>
 				</section>
 
 				<section id="speakers">

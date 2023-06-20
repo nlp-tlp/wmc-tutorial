@@ -205,7 +205,7 @@ class HomePage extends Component {
 								here
 							</a>
 						</b>{" "}
-						to open the notebook. You are not expected to install any packages
+						to open the notebook). You are not expected to install any packages
 						or run any code during the session, but are welcome to run the code
 						in the notebook after the session if you wish to try it out
 						yourself.

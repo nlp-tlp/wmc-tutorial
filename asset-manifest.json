@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/wmc-tutorial/static/css/main.bd854870.chunk.css",
-    "main.js": "/wmc-tutorial/static/js/main.376c0640.chunk.js",
-    "main.js.map": "/wmc-tutorial/static/js/main.376c0640.chunk.js.map",
+    "main.js": "/wmc-tutorial/static/js/main.5ca1c6a7.chunk.js",
+    "main.js.map": "/wmc-tutorial/static/js/main.5ca1c6a7.chunk.js.map",
     "runtime-main.js": "/wmc-tutorial/static/js/runtime-main.be78281c.js",
     "runtime-main.js.map": "/wmc-tutorial/static/js/runtime-main.be78281c.js.map",
     "static/js/2.ed5109f0.chunk.js": "/wmc-tutorial/static/js/2.ed5109f0.chunk.js",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.be78281c.js",
     "static/js/2.ed5109f0.chunk.js",
     "static/css/main.bd854870.chunk.css",
-    "static/js/main.376c0640.chunk.js"
+    "static/js/main.5ca1c6a7.chunk.js"
   ]
 }

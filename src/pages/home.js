@@ -230,55 +230,6 @@ class HomePage extends Component {
 
 					<div className="flex-container flex-align-center profile">
 						<div className="flex-item">
-							<img
-								src={melinda}
-								alt="Melinda Hodkiewicz"
-								className="profile-photo"
-							/>
-							<div className="profile-details">
-								<h3>Prof Melinda Hodkiewicz</h3>
-								<h4>Professor, UWA</h4>
-								<ul className="profile-links">
-									<li>
-										<a
-											href="https://www.linkedin.com/in/melinda-hodkiewicz-b6bbba7"
-											target="_blank"
-											rel="noreferrer"
-										>
-											LinkedIn
-										</a>
-									</li>
-									<li>
-										<a
-											href="https://scholar.google.com.au/citations?user=1JGboosAAAAJ&hl=en"
-											target="_blank"
-											rel="noreferrer"
-										>
-											Google Scholar
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div className="flex-item">
-							<p>
-								Professor Melinda Hodkiewicz BA Hons (Oxon), PhD, CEng, FTSE is
-								engineering academic working to improve maintenance, asset
-								management and safety practices in industry. Data and the
-								management and use of data is key to her work. In 2018 she was a
-								visiting fellow at the Alan Turing Institute, the national
-								centre for data science in the UK with their Data-centric
-								Engineering group and in 2019 with the US Government’s NIST
-								Laboratory in Maryland. She chaired Australia’s MB19 committee
-								and led Australia’s involvement in the development of the ISO
-								55000/1/2 International Standards for Asset Management 2012-2015
-								and its Australian version.
-							</p>
-						</div>
-					</div>
-
-					<div className="flex-container flex-align-center profile">
-						<div className="flex-item">
 							<img src={wei} alt="Wei Liu" className="profile-photo" />
 							<div className="profile-details">
 								<h3>Assoc/Prof Wei Liu</h3>
@@ -373,64 +324,6 @@ class HomePage extends Component {
 
 					<div className="flex-container flex-align-center profile">
 						<div className="flex-item">
-							<img src={tyler} alt="Tyler Bikaun" className="profile-photo" />
-							<div className="profile-details">
-								<h3>Tyler Bikaun</h3>
-								<h4>PhD Student, UWA</h4>
-								<ul className="profile-links">
-									<li>
-										<a
-											href="https://www.linkedin.com/in/tyler-bikaun/"
-											target="_blank"
-											rel="noreferrer"
-										>
-											LinkedIn
-										</a>
-									</li>
-									<li>
-										<a
-											href="https://scholar.google.com/citations?user=jZpJEnEAAAAJ&hl=en"
-											target="_blank"
-											rel="noreferrer"
-										>
-											Google Scholar
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div className="flex-item">
-							<p>
-								Tyler Bikaun is a PhD candidate at the University of Western
-								Australia supported by the{" "}
-								<a
-									href="https://maintenance.org.au"
-									target="_blank"
-									rel="noreferrer"
-								>
-									Centre for Transforming Maintenance through Data Science
-								</a>{" "}
-								and{" "}
-								<a
-									href="https://www.mriwa.wa.gov.au/"
-									target="_blank"
-									rel="noreferrer"
-								>
-									Mineral Research Institute of Western Australia
-								</a>
-								. His research concentrates on knowledge graph construction from
-								noisy technical texts, data curation in low-resource domains,
-								and generative knowledge extraction and normalisation using deep
-								learning techniques. Tyler's work has been published in venues
-								such as Empirical Methods in Natural Language Processing,
-								Association for Computational Linguistics, and the Prognostic
-								Health Management Society European Conference.
-							</p>
-						</div>
-					</div>
-
-					<div className="flex-container flex-align-center profile">
-						<div className="flex-item">
 							<img src={me} alt="Michael Stewart" className="profile-photo" />
 							<div className="profile-details">
 								<h3>Dr Michael Stewart</h3>
@@ -488,6 +381,117 @@ class HomePage extends Component {
 									UWA Natural and Technical Language Processing Group
 								</a>
 								.
+							</p>
+						</div>
+					</div>
+
+					<div className="flex-container flex-align-center profile">
+						<div className="flex-item">
+							<img
+								src={melinda}
+								alt="Melinda Hodkiewicz"
+								className="profile-photo"
+							/>
+							<div className="profile-details">
+								<h3>Prof Melinda Hodkiewicz</h3>
+								<h4>Professor, UWA</h4>
+								<ul className="profile-links">
+									<li>
+										<a
+											href="https://www.linkedin.com/in/melinda-hodkiewicz-b6bbba7"
+											target="_blank"
+											rel="noreferrer"
+										>
+											LinkedIn
+										</a>
+									</li>
+									<li>
+										<a
+											href="https://scholar.google.com.au/citations?user=1JGboosAAAAJ&hl=en"
+											target="_blank"
+											rel="noreferrer"
+										>
+											Google Scholar
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div className="flex-item">
+							<p>
+								Professor Melinda Hodkiewicz BA Hons (Oxon), PhD, CEng, FTSE is
+								engineering academic working to improve maintenance, asset
+								management and safety practices in industry. Language
+								Processing, Knowledge Graphs and Ontologies are key to the work
+								in the UWA NLP-TLP group to transform the productivity and
+								effectiveness of asset managers and maintenance professionals.
+								In addition to working with the UWA team to develop value-adding
+								tools Melinda is also working, as Australia's representative on
+								the ISO TC184/SC4 Industrial Data Standard committee, to
+								translate this work into standards for adoption by industry.
+								Specifically she is involved in the new Industrial Data Ontology
+								standard. In the early 2010's she chaired Australia’s MB19
+								committee and led Australia’s involvement in the development of
+								the International Standards for Asset Management 2012-2015 and
+								its Australian version.
+							</p>
+						</div>
+					</div>
+
+					<div className="flex-container flex-align-center profile">
+						<div className="flex-item">
+							<img src={tyler} alt="Tyler Bikaun" className="profile-photo" />
+							<div className="profile-details">
+								<h3>Tyler Bikaun</h3>
+								<h4>PhD Student, UWA</h4>
+								<ul className="profile-links">
+									<li>
+										<a
+											href="https://www.linkedin.com/in/tyler-bikaun/"
+											target="_blank"
+											rel="noreferrer"
+										>
+											LinkedIn
+										</a>
+									</li>
+									<li>
+										<a
+											href="https://scholar.google.com/citations?user=jZpJEnEAAAAJ&hl=en"
+											target="_blank"
+											rel="noreferrer"
+										>
+											Google Scholar
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div className="flex-item">
+							<p>
+								Tyler Bikaun is a PhD candidate at the University of Western
+								Australia supported by the{" "}
+								<a
+									href="https://maintenance.org.au"
+									target="_blank"
+									rel="noreferrer"
+								>
+									Centre for Transforming Maintenance through Data Science
+								</a>{" "}
+								and{" "}
+								<a
+									href="https://www.mriwa.wa.gov.au/"
+									target="_blank"
+									rel="noreferrer"
+								>
+									Mineral Research Institute of Western Australia
+								</a>
+								. His research concentrates on knowledge graph construction from
+								noisy technical texts, data curation in low-resource domains,
+								and generative knowledge extraction and normalisation using deep
+								learning techniques. Tyler's work has been published in venues
+								such as Empirical Methods in Natural Language Processing,
+								Association for Computational Linguistics, and the Prognostic
+								Health Management Society European Conference.
 							</p>
 						</div>
 					</div>

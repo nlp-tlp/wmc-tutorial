@@ -104,7 +104,7 @@ class HomePage extends Component {
 							</ul>
 						</li>
 						<li>
-							<span className="time">13:00 - 13:45</span>
+							<span className="time">12:30 - 13:45</span>
 							<b>Lunch</b>
 						</li>
 

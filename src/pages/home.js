@@ -142,6 +142,7 @@ class HomePage extends Component {
 									<ul>
 										<li>Echidna</li>
 										<li>Aquila</li>
+										<li>Redcoat</li>
 										<li>Quickgraph</li>
 										<li>Industrial Data Ontology (IDO)</li>
 									</ul>

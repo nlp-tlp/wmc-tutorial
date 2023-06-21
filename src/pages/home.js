@@ -81,11 +81,10 @@ class HomePage extends Component {
 						</li>
 						<li>
 							<span className="time">9:30 - 10:30</span>
-							<b>Session 2 - Motivation</b>
-							<ul>
-								<li>Introduction to Technical Language Processing</li>
-								<li>Discussion</li>
-							</ul>
+							<b>
+								Session 2 - Discussion - Experiences with natural and technical
+								language processing
+							</b>
 						</li>
 						<li>
 							<span className="time">10:30 - 11:00</span>

@@ -104,12 +104,12 @@ class HomePage extends Component {
 							</ul>
 						</li>
 						<li>
-							<span className="time">12:30 - 13:45</span>
+							<span className="time">12:30 - 13:30</span>
 							<b>Lunch</b>
 						</li>
 
 						<li>
-							<span className="time">13:45 - 15:00</span>
+							<span className="time">13:30 - 15:00</span>
 							<b>
 								Session 4 - Building Knowledge Graphs from Unstructured Text
 							</b>

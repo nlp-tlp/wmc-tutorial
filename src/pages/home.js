@@ -110,7 +110,13 @@ class HomePage extends Component {
 						<li>
 							<span className="time">13:30 - 15:00</span>
 							<b>
-								Session 4 - Building Knowledge Graphs from Unstructured Text
+								Session 4 - Building Knowledge Graphs from Unstructured Text{" "}
+								<a
+									href="https://github.com/nlp-tlp/Tutorial-WMC/blob/main/WMC.ipynb"
+									target="_blank"
+								>
+									(Notebook link)
+								</a>
 							</b>
 							<ul>
 								<li>Introduction to Natural & Technical Language Processing</li>
@@ -175,8 +181,8 @@ class HomePage extends Component {
 				<section id="venue">
 					<h2>Venue</h2>
 					<p>
-						The tutorial will be located at Brisbane Convention & Exhibition
-						Centre, QLD, Australia.
+						The tutorial will be located at Boulevard Level (Room B1), Brisbane
+						Convention & Exhibition Centre, QLD, Australia.
 					</p>
 					{/*					<p>
 						It is also available online.&nbsp;
@@ -222,6 +228,23 @@ class HomePage extends Component {
 							GitHub repo
 						</a>
 						.
+					</p>
+				</section>
+				<section id="conference-app">
+					<h2>Conference app</h2>
+					<p>
+						To download the WMC 2023 conference app, click{" "}
+						<a
+							href="https://play.google.com/store/apps/details?id=au.com.entegy.wmc2023"
+							target="_blank"
+						>
+							here
+						</a>{" "}
+						(Android) or{" "}
+						<a href="https://apps.apple.com/app/id6449652381" target="_blank">
+							here
+						</a>{" "}
+						(Apple).
 					</p>
 				</section>
 

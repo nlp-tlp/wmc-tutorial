@@ -155,6 +155,7 @@ class Hero extends Component {
                 <h4>
                   Monday 26 June, 9am - 4pm AEST
                   <br />
+                  Boulevard Level (Room B1), <br />
                   Brisbane Convention & Exhibition Centre, Brisbane, QLD,
                   Australia
                 </h4>
